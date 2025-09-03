@@ -3,12 +3,12 @@ import "./globals.css";
 import ThemeProvider from "../context/provider";
 
 const info = {
-  name: "Shrid Mishra",
-  twitter: "@ShridMishra",
+  name: "Deepanshu Tyagi",
+  twitter: "@DeepanshuTyagi",
   description:
     "Full-Stack Developer specializing in Next.js, TypeScript, and Solana. Crafting modern, scalable, and high-performance web experiences.",
-  url: "https://shrid.in",
-  image: "https://shrid.in/assets/preview.png", 
+  url: "https://deepanshu.in",
+  image: "https://deepanshu.in/assets/preview.png", 
 };
 
 export const metadata: Metadata = {
@@ -19,17 +19,17 @@ export const metadata: Metadata = {
   },
   description: info.description,
   keywords: [
-    "Shrid Mishra",
+    "Deepanshu Tyagi",
     "Full-Stack Developer",
     "Next.js",
     "TypeScript",
-    "Solana Developer",
+    "Blockchain Developer",
     "Portfolio",
     "Web Development",
     "Frontend Developer",
     "Backend Developer",
   ],
-  authors: [{ name: info.name, url: info.url }],
+    authors: [{ name: info.name, url: info.url }],
   creator: info.name,
   publisher: info.name,
 
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: info.url,
-    title: `${info.name} | Full-Stack Developer`,
+    title: `${info.name} | Full-Stack Developer & Blockchain Developer`,
     description: info.description,
     siteName: info.name,
     images: [
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: info.twitter, 
     creator: info.twitter,
-    title: `${info.name} | Full-Stack Developer`,
+    title: `${info.name} | Full-Stack Developer & Blockchain Developer`,
     description: info.description,
     images: [info.image],
   },
